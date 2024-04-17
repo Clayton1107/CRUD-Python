@@ -1,0 +1,27 @@
+COMANDO DE LINHA PYTHON E DJANGO
+
+############## instalando framework Django
+cd c:/
+mkdir Python
+cd Python
+python -m venv venv
+cd venv/Scripts
+activate
+cd c:/
+pip install django
+django-admin startproject project .
+python manage.py startapp app
+python manage.py runserver >>>>>>> comando para executar o servidor para rodar a aplicação no local host
+
+
+################ Cria no banco de dados o arquivo model - Cria o banco e as tabelas
+python manage.py makemigrations - Cria o banco de dados sqlite3 que eh padrao do django
+python manage.py migrate - cria as tabelas do model
+
+
+############### Para iniciar a aplicação venv
+cd c:/Python
+cd venv/Scripts
+activate
+cd c:/Python
+python manage.py runserver
